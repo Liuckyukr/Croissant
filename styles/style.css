@@ -40,3 +40,19 @@ p {
 img {
     max-width: 100%;
 }
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 32px;
+    }
+    h2 {
+        font-size: 20px;
+    }
+    p {
+        font-size: 16px;
+    }
+    .container {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
